@@ -1,7 +1,7 @@
 // file is table of contents formatted in JSON
 
 {
-  "manifest_version": 2,
+  "manifest_version": 2, //mandatory v2 for manifest (v1 deprecated)
 
   "name": "One-click Kittens",
   "description": "This extension demonstrates a browser action with kittens.",
@@ -11,8 +11,8 @@
   "permissions": [
     "https://secure.flickr.com/"
   ],
-  "browser_action": {
+  "browser_action": { //icon that appears on browser
     "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html" //when icon clicked
   }
 }
